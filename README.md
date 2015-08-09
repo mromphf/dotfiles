@@ -1,0 +1,2 @@
+# dotfiles
+Redundancy is good.
