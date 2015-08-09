@@ -1,0 +1,14 @@
+[user]
+	name = Mark Romphf
+	email = markromphf@gmail.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[alias]
+	aa = add -A
+    ci = commit
+    co = checkout
+    lg = log --oneline --graph --decorate -n 10
+    st = status -sb
+    b = branch
