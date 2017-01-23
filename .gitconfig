@@ -3,12 +3,18 @@
 	email = markromphf@gmail.com
 [core]
 	editor = vim
+	autocrlf = true
 [color]
 	ui = true
 [alias]
+	dc = diff --cached
+	ci = commit
+	co = checkout
+	st = status -sb
+	b = branch
 	aa = add -A
-    ci = commit
-    co = checkout
-    lg = log --oneline --graph --decorate -n 10
-    st = status -sb
-    b = branch
+	rb = rebase --verbose
+	sh = show
+	di = diff
+	t = tag
+	lg = log --branches --all --graph --decorate --format=format:\"%C(yellow)%h%C(auto)%d %Creset%s %C(cyan)(%ar) %Cgreen<%an>\" -n 15
