@@ -1,2 +1,2 @@
 # dotfiles
-Redundancy is good.
+Some of my configs.
