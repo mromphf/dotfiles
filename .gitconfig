@@ -17,4 +17,5 @@
 	rb = rebase --verbose
 	sh = show
 	st = status -sb
-	t = tag
+    ls = diff-tree --no-commit-id --name-only -r
+    t = tag
