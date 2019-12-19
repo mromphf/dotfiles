@@ -9,6 +9,8 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set path+=**
+set wildmenu
 
 filetype on
 filetype plugin on
