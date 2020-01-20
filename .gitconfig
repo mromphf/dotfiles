@@ -9,13 +9,20 @@
 [alias]
 	aa = add -A
 	b = branch
-	ci = commit
+	c = commit
 	co = checkout
 	dc = diff --cached
 	di = diff
-	lg = log --branches --all --graph --decorate --format=format:\"%C(yellow)%h%C(auto)%d %Creset%s %C(cyan)(%ar) %Cgreen<%an>\" -n 15
+	fa = fetch --all
+	lg = log --branches --all --graph --decorate --format=format:\"%C(yellow)%h%C(auto)%d %Creset%s %C(cyan)(%ar) %Cgreen<%an>\" -n 20
+	ls = diff-tree --no-commit-id --name-only -r
+	pr = pull --rebase
 	rb = rebase --verbose
 	sh = show
+	sh1 = show HEAD~1
 	st = status -sb
-    ls = diff-tree --no-commit-id --name-only -r
-    t = tag
+	sw = switch
+	t = tag
+	tr = tag --sort=-refname
+[merge]
+	tool = vimdiff
